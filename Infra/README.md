@@ -1,6 +1,6 @@
-# Azure Machine Learning Enterprise Terraform Example
+# Azure Machine Learning Infra Terraform Example
 
-This repo shows an example for rolling out a complete Azure Machine Learning enterprise enviroment via Terraform.
+ Azure Machine Learning enterprise enviroment via Terraform.
 
 ![Deployed resources](media/architecture_aml_pl.png "Deployed resources")
 
@@ -15,7 +15,6 @@ This includes rollout of the following resources:
 * Jumphost (Windows) with Bastion for easy access to the VNET
 * Compute Cluster (in VNET)
 * Compute Instance (in VNET)
-* (Azure Kubernetes Service - disabled by default and still under development)
 
 ## Instructions
 
